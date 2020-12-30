@@ -2,25 +2,16 @@
 <!doctype html>
 <html>
     <head>
-        <title>Dash.js Rocks</title>
+        <title>bars</title>
         <style>
-            video {
-                width: 640px;
-                height: 360px;
-            }
+          
         </style>
     </head>
     <body>
+        <h1>bars the game</h1>
         <div>
-            <video id="videoPlayer" controls></video>
+            
         </div>
-        <script src="https://cdn.dashjs.org/v3.1.0/dash.all.min.js"></script>
-        <script>
-            (function(){
-                var url = "https://161.35.201.254/stream/dash/dash.mpd";
-                var player = dashjs.MediaPlayer().create();
-                player.initialize(document.querySelector("#videoPlayer"), url, true);
-            })();
-        </script>
+       
     </body>
 </html>
